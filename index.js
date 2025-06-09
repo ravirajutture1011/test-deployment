@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-    origin:"https://test-deployment-m4r6.onrender.com",
+    origin:"http://localhost:5173",
     credentials:true,
 }));
 
