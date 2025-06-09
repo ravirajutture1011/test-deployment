@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-    origin:"https://test-frontend-mf7y.vercel.app/",
+    origin:"https://test-frontend-mf7y.vercel.app",
     credentials:true,
 }));
 
